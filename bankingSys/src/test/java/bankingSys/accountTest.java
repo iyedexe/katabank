@@ -171,7 +171,7 @@ public class accountTest {
 		Account cnt = new Account(user, amount);
 		//Deposit 10
 		double depot = 10;
-		cnt.deposit(depot);
+		cnt.deposit(depot); 
 		
 		Stack<Operation> twoOperation = cnt.operationHistory();
 		
